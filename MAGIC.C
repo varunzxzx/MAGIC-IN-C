@@ -125,9 +125,9 @@ void magic()
 int trick()
 {
 	int a=9;
-	randomize();
 	do
 	{
+		randomize();
 		a=random(50);
 	}while(a<10);
 	return a*2;
